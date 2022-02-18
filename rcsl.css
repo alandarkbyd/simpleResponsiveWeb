@@ -1,0 +1,183 @@
+body{
+	padding: 0;
+	margin: 0;
+}
+.head{
+	width: 100%;
+	text-align: center;
+	background-color: #294c62;
+	color: white;
+	padding-top: 10px;
+	padding-bottom: 30px;
+	max-width: 900;
+	font-family: arial;
+	margin: 0;
+}
+.head h2{
+	font-size: 18px;
+	font-weight: 200;
+}
+
+.btn{
+	font-size: 19px;
+	font-weight: 600;
+	text-decoration: none;
+	color: white;
+	background-color: red;
+	padding: 7px;
+	width: 90%;
+	border-radius: 5px;
+	display: inline-block;
+}
+@media screen and (min-width: 413px){
+.btn{
+	font-size: 15px;
+	font-weight: 600;
+	text-decoration: none;
+	color: white;
+	background-color: #579d9f;
+	padding: 7px;
+	width: 120px;
+	border-radius: 5px;
+	display: inline-block;
+}
+}
+
+
+
+
+footer .container{
+	text-align: center;
+	background-color: #353535;
+	bottom: 0;
+	position: absolute;
+	width: 100%;
+	padding: 15px 0 1px; 
+
+}
+footer p{
+	color: #878787;
+}
+footer a{
+	color: #c3c3c3;
+	text-decoration: none;
+	font-family: arial;
+	display: inline-block;
+	padding:0px 10px;
+	font-weight: 600;
+
+}
+
+@media screen and (max-width: 914px){
+	footer a{
+		display: block;
+		line-height: 2;
+		font-weight: 600;
+	}
+}
+
+
+
+
+.contain{
+	margin-top: 50px;
+	display: flex;
+}
+.contain #feature{
+	display: inline-block;
+	flex: 1;
+	text-align: center;
+}
+#feature p{
+	font-family: arial;
+	font-weight: 600;
+}
+#feature img{
+	width: 30%;
+}
+
+
+@media screen and (max-width: 914px){
+	.contain{
+		margin-top: 60px;
+		display: block;
+	}
+	.contain #feature{
+		display: block;
+		display: flex;
+		margin: 46px 0;
+	}
+	.contain #feature p{
+		text-align: left;
+		padding-left: 10px;
+	}
+}
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#float{
+	border-radius: 5px;
+	height: 100px;
+	width: 20%;
+	text-align: center;
+	background-color: #d3e9f9;
+	top: 10rem;
+	right: 24rem;
+	position: absolute;
+	visibility: hidden;
+
+}
+@media screen and (max-width: 914px){
+	#float{
+		left: 20px;
+		width: 90%;
+		position: absolute;
+
+	}
+}
+
+.quote{
+	background-color: #579d9f;
+	position: absolute;
+	bottom: 9%;
+	width: 100%;
+
+}
+@media screen and (max-width: 914px){
+	.quote{
+		bottom: 17%;
+	}
+}
+.quote .con{
+	font-weight: 600;	
+	color:  white;
+	text-align: center;
+	font-family: arial;
+	padding: 30px;
+}
+
+.con cite::before{
+	content: '-';
+}
+.con p{
+	font-size: 24px;
+}
+.con cite{
+	font-size: 16px;
+}
