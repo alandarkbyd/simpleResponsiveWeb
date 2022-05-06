@@ -7,11 +7,15 @@ body{
 	text-align: center;
 	background-color: #294c62;
 	color: white;
-	padding-top: 10px;
-	padding-bottom: 30px;
+	padding: 10px 0 30px;
 	max-width: 900;
 	font-family: arial;
 	margin: 0;
+}
+@media screen and (max-width: 914px){
+	.head{
+		/*padding: 10px 5px 30px;*/
+	}
 }
 .head h2{
 	font-size: 18px;
@@ -74,13 +78,22 @@ footer a{
 		line-height: 2;
 		font-weight: 600;
 	}
+	footer{
+		display: block;
+		position: relative;
+	}
 }
 
 
 
 
 .contain{
-	margin-top: 50px;
+	margin-top: 75px;
+	/*position: relative;*/
+	/*top: 75px;*/
+	/*bottom: 0;*/
+	/*left: 0;*/
+	/*right: 0;*/
 	display: flex;
 }
 .contain #feature{
@@ -91,14 +104,17 @@ footer a{
 #feature p{
 	font-family: arial;
 	font-weight: 600;
+	font-variant: small-caps;
+	font-size: 25px;
 }
 #feature img{
-	width: 30%;
+	width: 50%;
 }
 
 
 @media screen and (max-width: 914px){
 	.contain{
+		position: relative;
 		margin-top: 60px;
 		display: block;
 	}
@@ -106,12 +122,26 @@ footer a{
 		display: block;
 		display: flex;
 		margin: 46px 0;
+		position: relative;
+		width: 90%;
+		left: 10px;
 	}
 	.contain #feature p{
 		text-align: left;
 		padding-left: 10px;
+		font-size: inherit;
 	}
 }
+
+
+
+ 
+
+
+
+
+
+
 
 
 
@@ -123,11 +153,11 @@ footer a{
 
 #float{
 	border-radius: 5px;
-	height: 100px;
-	width: 20%;
+	height: 150px;
+	width: 25%;
 	text-align: center;
 	background-color: #d3e9f9;
-	top: 10rem;
+	top: 14rem;
 	right: 24rem;
 	position: absolute;
 	visibility: hidden;
@@ -138,6 +168,8 @@ footer a{
 		left: 20px;
 		width: 90%;
 		position: absolute;
+		display: block;
+		visibility: hidden;
 
 	}
 }
@@ -151,7 +183,10 @@ footer a{
 }
 @media screen and (max-width: 914px){
 	.quote{
-		bottom: 17%;
+		/*bottom: 17%;*/
+		margin: 0px 0px 150px;
+		display: block;
+		position: relative;
 	}
 }
 .quote .con{
@@ -159,7 +194,8 @@ footer a{
 	color:  white;
 	text-align: center;
 	font-family: arial;
-	padding: 30px;
+	padding: 10px 30px 30px;
+	position: relative;
 }
 
 .con cite::before{
